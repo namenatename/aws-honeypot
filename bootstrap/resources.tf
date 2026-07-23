@@ -1,6 +1,6 @@
- resource "aws_s3_bucket" "terraform_state" {
-    bucket        = "honeypot-devops-directive-tf-state-bucket"
-    force_destroy = true
+resource "aws_s3_bucket" "terraform_state" {
+  bucket        = "honeypot-devops-directive-tf-state-bucket"
+  force_destroy = true
 }
     
 resource "aws_s3_bucket_versioning" "terraform_state" {
