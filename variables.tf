@@ -5,13 +5,13 @@ variable "instance_type" {
 }
 
 variable "region" {
-    description = "default region"
-    type        = string
-    default     = "us-west-1"
+  description = "default region"
+  type        = string
+  default     = "us-west-1"
 }
 
 variable "cidr_open" {
-    description = "cidr range for network traffic to hit port 22"
-    type        = string
-    default     = "0.0.0.0/0"
+  description = "cidr range for network traffic to hit port 22"
+  type        = string
+  default     = "0.0.0.0/0"
 }
