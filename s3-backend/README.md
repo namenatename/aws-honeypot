@@ -2,7 +2,7 @@
 
 ```bash
 # Change directory to this folder
-$ cd bootstrap
+$ cd s3-backend
 
 # Initialize Terraform in this folder
 $ terraform init
@@ -21,5 +21,5 @@ resource "aws_s3_bucket" "terraform_state" {
 ```
 
 - Insert a unique S3 bucket name for your configuration
-- After creating the state backend, connect to it within the src/ folder to configure the honeypot
+- After creating the state backend, connect to it within the parent directory to configure the honeypot
 - Allows for secured state file within production
